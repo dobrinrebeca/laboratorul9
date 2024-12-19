@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Use Case Specification</title>
+</head>
+<body>
+    <h1>Use Case: Partajarea materialelor cu echipa</h1>
+
+    <h2>1. Descriere</h2>
+    <p>Acest caz de utilizare permite managerului să partajeze materiale cu echipa pentru a colabora eficient.</p>
+
+    <h2>2. Actori</h2>
+    <ul>
+        <li>Manager</li>
+        <li>Echipa de vânzări</li>
+    </ul>
+
+    <h2>3. Pre-condiții</h2>
+    <ul>
+        <li>Managerul este autentificat pe platformă.</li>
+    </ul>
+
+    <h2>4. Post-condiții</h2>
+    <ul>
+        <li>Materialul partajat este vizibil pentru membrii echipei.</li>
+    </ul>
+
+    <h2>5. Flux principal</h2>
+    <ol>
+        <li>Managerul navighează la secțiunea „Materiale”.</li>
+        <li>Selectează materialele pe care dorește să le partajeze.</li>
+        <li>Alege echipa sau membrii cu care dorește să le partajeze.</li>
+        <li>Apasă pe „Partajează”.</li>
+    </ol>
+
+    <h2>6. Flux alternativ</h2>
+    <ul>
+        <li>2a. Managerul nu găsește materialul necesar → folosește funcția de căutare.</li>
+    </ul>
+
+    <hr>
+
+    <h1>Use Case: Generarea raportului de activitate</h1>
+
+    <h2>1. Descriere</h2>
+    <p>Acest caz de utilizare permite managerului să genereze un raport despre activitatea utilizatorilor asupra materialelor.</p>
+
+    <h2>2. Actori</h2>
+    <ul>
+        <li>Manager</li>
+    </ul>
+
+    <h2>3. Pre-condiții</h2>
+    <ul>
+        <li>Managerul are drepturi de vizualizare asupra materialelor.</li>
+    </ul>
+
+    <h2>4. Post-condiții</h2>
+    <ul>
+        <li>Raportul este descărcat în format PDF.</li>
+    </ul>
+
+    <h2>5. Flux principal</h2>
+    <ol>
+        <li>Managerul accesează secțiunea „Rapoarte”.</li>
+        <li>Selectează perioada de timp și materialele pentru raport.</li>
+        <li>Apasă pe „Generează Raport”.</li>
+        <li>Vizualizează raportul și îl descarcă.</li>
+    </ol>
+
+    <h2>6. Flux alternativ</h2>
+    <ul>
+        <li>3a. Managerul introduce o perioadă nevalidă → este notificat și trebuie să corecteze selecția.</li>
+    </ul>
+</body>
+</html>
